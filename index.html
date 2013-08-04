@@ -26,61 +26,134 @@
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
     <style>
+      /* http://support.addthis.com/customer/portal/questions/1136093-share-buttons-in-center-position */      
+      div.addthis_toolbox {
+      width:180px;
+      margin: 0 auto;
+      }
     </style>
   </head>
   <body>
-    
-      <div class="container-narrow">
-        <div class="masthead">
-          <ul class="nav nav-pills pull-right">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-          
-        </div>
-    
-        <hr>
-    
-        <img src="https://s3.amazonaws.com/media.jetstrap.com/Yj6kAIWRSkOJ7BnbUlrY_skaut-logo-1.png" width="150"><div class="jumbotron">
-          
-          <img src="https://s3.amazonaws.com/media.jetstrap.com/1EKrCJyQOmJk7VlDEB9r_skaut-web.png" width="250" class="pull-right"><h1 class="text-left">The smart surveillance system</h1><p class="lead text-left">Skaut is an inexpensive cloud-enabled surveillance system, that uses state-of-the-art machine learning technology to be the best watchdog you ever had.</p>
-          <a class="btn btn-large btn-success" href="#">Keep me in the loop</a>
-        </div>
-    
-        <hr><div class="row-fluid"><div class="span6"><h3>Powered by raspberry pi</h3><p></p><div>A raspberry pi is at the heart of the skaut. This inexpensive ARM platform provides the necessary horsepower for all the neat tricks we do, such as facial recognition, on-the-fly video transcoding, image enhancement, person or pet detector, and many more to come<br></div><p></p></div><div class="span6"><img src="https://s3.amazonaws.com/media.jetstrap.com/cDBeYq4nTT6KrHRqP83D_RaspiModelB.png" width="300"></div></div><hr>
-    
-        <div class="row-fluid marketing">
-          <div class="span6">
-            <h4>Smart</h4>
-            <p>Most home surveillance cameras are simply triggered by motion. With skaut, we want to do better, and only warn you when something meaningful happens.</p>
-    
-            <h4>Affordable</h4>
-            <p>Off-the-shelf components help keep the price down</p>
-    
-            <h4>Stylish</h4>
-            <p>A surveillance camera you can keep on your coffe table.</p>
-          </div>
-    
-          <div class="span6">
-            <h4>Always connected</h4>
-            <p>Power and wifi are the two things the skaut needs to thrive.</p>
-    
-            <h4>All seeing</h4>
-            <p>Near 360º viewing angles allow you to place the skaut nearly anywhere in your home.</p>
-    
-            <h4>1 step installation</h4>
-            <p>Just launch the app in your smartphone, and show the registration QR code to the skaut. Voila.</p>
-          </div>
-        </div>
-    
-        <hr>
-    
-        <div class="footer">
-          <p>© Company 2013</p>
-        </div>
-      </div> <!-- /container -->
-    
+    <div class="container-narrow">
+    	<div class="masthead">
+    		<ul class="nav nav-pills pull-right">
+    			<li class="active">
+    				<a href="#">Home</a>
+    			</li>
+    			<li>
+    				<a href="#">About</a>
+    			</li>
+    			<li>
+    				<a href="#">Contact</a>
+    			</li>
+    		</ul>
+    	</div>
+    	<hr>
+    	<img src="https://s3.amazonaws.com/media.jetstrap.com/Yj6kAIWRSkOJ7BnbUlrY_skaut-logo-1.png" width="150">
+    	<div class="jumbotron">
+    		<img src="https://s3.amazonaws.com/media.jetstrap.com/1EKrCJyQOmJk7VlDEB9r_skaut-web.png" width="250" class="pull-right">
+    		<h1 class="text-left">
+    			The smart surveillance system
+    		</h1>
+    		<p class="lead text-left">
+    			Skaut is an inexpensive cloud-enabled surveillance system, that uses state-of-the-art
+    			machine learning technology to be the best watchdog you ever had.
+    		</p>
+    		
+    		
+    	</div>
+
+<div class="span6 offset3 social">
+
+<!-- AddThis Button BEGIN -->
+	<div class="addthis_toolbox addthis_default_style addthis_32x32_style">
+	  <a class="addthis_button_preferred_1"></a>
+	  <a class="addthis_button_preferred_2"></a>
+	  <a class="addthis_button_compact"></a>
+	 
+	</div>
+	<script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
+	<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-51fe39312a2fa882"></script>
+	<!-- AddThis Button END -->
+	</div>
+
+    	<a class="btn btn-large btn-success" href="#">Keep me in the loop</a><hr>
+
+	<div class="row-fluid">
+	  <div class="span6">
+    	    <h3>
+    	      Powered by raspberry pi
+    	    </h3>
+    	    <p>
+    	    </p>
+    	    <div>
+    	      A raspberry pi is the heart of the skaut. This inexpensive ARM platform
+    	      provides the necessary horsepower for all the neat tricks we do, such as
+    	      facial recognition, on-the-fly video transcoding, image enhancement, person
+    	      or pet detector, and many more to come
+    	      <br>
+    	    </div>
+    	    <p>
+    	    </p>
+    	  </div>
+    	  <div class="span6">
+    	    <img src="https://s3.amazonaws.com/media.jetstrap.com/cDBeYq4nTT6KrHRqP83D_RaspiModelB.png" width="300">
+    	  </div>
+    	</div>
+    	<hr>
+    	<div class="row-fluid marketing">
+    	  <div class="span6">
+    	    <h4>
+    	      Smart
+    	    </h4>
+    	    <p>
+    				Most home surveillance cameras are simply triggered by motion. With skaut,
+    				we want to do better, and only warn you when something meaningful happens.
+    			</p>
+    			<h4>
+    				Affordable
+    			</h4>
+    			<p>
+    				Off-the-shelf components help keep the price down
+    			</p>
+    			<h4>
+    				Stylish
+    			</h4>
+    			<p>
+    				A surveillance camera you can keep on your coffe table.
+    			</p>
+    		</div>
+    		<div class="span6">
+    			<h4>
+    				Always connected
+    			</h4>
+    			<p>
+    				Power and wifi are the two things the skaut needs to thrive.
+    			</p>
+    			<h4>
+    				All seeing
+    			</h4>
+    			<p>
+    				Near 360º viewing angles allow you to place the skaut nearly anywhere
+    				in your home.
+    			</p>
+    			<h4>
+    				1 step installation
+    			</h4>
+    			<p>
+    				Just launch the app in your smartphone, and show the registration QR code
+    				to the skaut. Voila.
+    			</p>
+    		</div>
+    	</div>
+    	<hr>
+    	<div class="footer">
+    		<p>
+    			© Company 2013
+    		</p>
+    	</div>
+    </div>
+    <!-- /container -->
 
     <style>
       
